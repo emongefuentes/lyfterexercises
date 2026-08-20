@@ -1,4 +1,4 @@
-print("Ejercicio numero 1")
+print("Exercise number 1")
       
 print("Mi nombre es Eli ")
 
@@ -10,7 +10,7 @@ print("""
       """)
 
 
-print("Ejercicio numero 2")   
+print("Exercise number 2")   
    
 print ("El resultado de la suma 1 + 1 es: ")
 print ("Resultado", 1 + 1)
