@@ -1,0 +1,8 @@
+1. commit uploading first exercises
+-subo los ajustes o ejercicios de los primeros modulos
+-para subir los ejercicio constantemente para su revision
+
+
+2. comit initial commit
+-creo la estructura inicial del repositorio
+-inicio el repositoio que utilizare durante todo el programa de lyfter

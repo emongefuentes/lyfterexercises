@@ -1,0 +1,2 @@
+Estoy en la practica de Git, son varios comandos que aun necesito practicar. 
+I'm currently practicing Git, there are several commands I still need to practice.
