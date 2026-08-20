@@ -1,0 +1,65 @@
+[
+    {
+        "held_item": null,
+        "is_shiny": false,
+        "level": 54,
+        "name": "Pikachu",
+        "skills": [
+            "Thunder Shock",
+            "Quick Attack",
+            "Thunderbolt",
+            "Volt Tackle"
+        ],
+        "stats": {
+            "attack": 55,
+            "defense": 40,
+            "hp": 35,
+            "sp_attack": 50,
+            "sp_defense": 50,
+            "speed": 90
+        },
+        "type": "Electric",
+        "weight_kg": 6.0
+    },
+    {
+        "held_item": "Charcoal",
+        "is_shiny": true,
+        "level": 8,
+        "name": "Charmander",
+        "skills": [
+            "Ember",
+            "Scratch",
+            "Tackle",
+            "Smokescreen"
+        ],
+        "stats": {
+            "attack": 52,
+            "defense": 43,
+            "hp": 39,
+            "sp_attack": 60,
+            "sp_defense": 50,
+            "speed": 65
+        },
+        "type": "Fire",
+        "weight_kg": 8.5
+    },
+    {
+        "is_shiny": "yes",
+        "level": 3,
+        "name": "lucero",
+        "skills": [
+            "mimir",
+            "correr"
+        ],
+        "stats": {
+            "attack": 90,
+            "defense": 50,
+            "hp": 40,
+            "sp_attack": 100,
+            "sp_defense": 100,
+            "speed": 50
+        },
+        "type": "gato",
+        "weight_kg": 3
+    }
+]
