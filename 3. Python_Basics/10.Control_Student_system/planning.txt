@@ -1,0 +1,36 @@
+while menu
+
+option 1: ingresar info
+    Nombre completo
+    Sección (ejemplo: 11B)
+    Nota de español
+    Nota de inglés
+    Nota de sociales
+    Nota de ciencias
+
+
+option 2: ver informacion de los estudiantes 
+    guarda la info en una lista
+    que tiene un diccionario
+    para cada estudiante
+
+
+option 3:  ver top 3    
+    muestra los numeros mas alto de la lista
+    debe recorrer la lista y ver cual es el mayor 
+
+    [{'name': 'Edgar', 'section': '11 B', 'spanish': 90, 'english': 90, 'social_studies': 90, 'science': 90}, {'name': 'Fer', 'section': '7 C', 'spanish': 70, 'english': 70, 'social_studies': 70, 'science': 70}, {'name': 'Fabi', 'section': '14 B', 'spanish': 90, 'english': 98, 'social_studies': 89, 'science': 98}, {'name': 'Maico', 'section': '15 G', 'spanish': 55, 'english': 55, 'social_studies': 55, 'science': 55}]
+    new_list = [{'name': 'Edgar', 'section': '11 B', 'spanish': 90, 'english': 90, 'social_studies': 90, 'science': 90}, {'name': 'Fer', 'section': '7 C', 'spanish': 70, 'english': 70, 'social_studies': 70, 'science': 70}, {'name': 'Fabi', 'section': '14 B', 'spanish': 90, 'english': 98, 'social_studies': 89, 'science': 98}, {'name': 'Maico', 'section': '15 G', 'spanish': 55, 'english': 55, 'social_studies': 55, 'science': 55}
+
+option 4: ver nota promedio 
+    ahora en la lista, muestra todo
+
+
+option 5: exporta CSV
+    la info debe de guardarse en CSV
+    solo es exportarla
+
+
+option 6: importa CSV
+    si hay un file existente con el nombre, lo abre y muestra.
+
