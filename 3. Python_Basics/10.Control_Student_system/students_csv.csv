@@ -1,5 +1,8 @@
-name,section,spanish,english,social_studies,science
-Edgar,11 B,90,90,90,90
-Fer,7 C,70,70,70,70
-Fabi,14 B,90,98,89,98
-Maico,15 G,55,55,55,55
+name,section,spanish,english,social_studies,science,average
+edgar,11B,10,10,10,10,10.0
+carlos,11A,85,90,78,88,85.25
+ana,12A,92,87,95,91,91.25
+luis,11B,76,82,80,85,80.75
+sofia,12C,88,94,86,90,89.5
+daniel,11C,70,75,82,77,76.0
+
