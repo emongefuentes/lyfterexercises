@@ -16,7 +16,6 @@ def menu():
             option = int(input("Choose the option desired from 1 to 6: "))
             if option > 0 and option < 8:
                 if option == 1:
-                    print("option 1")
                     student_list = actions.fill_student_info(new_list )
                 elif option == 2:
                     actions.show_student_info(student_list)   
@@ -30,6 +29,8 @@ def menu():
                     imported_list = data.import_csv_data(new_list) 
                     student_list = imported_list
                     continue
+                else:
+                    print("The options available are 1 to 6")
         except ValueError as e:
             print(f"The option must be a number.  Error: {e}")    
             continue

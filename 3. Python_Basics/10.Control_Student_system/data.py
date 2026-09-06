@@ -13,18 +13,20 @@ def export_cvs_data(new_list):
             
         
 def import_csv_data(list_to_import):
-    with open('students_csv.csv', "r", newline='')as file:
-        read_file = csv.DictReader(file)
-        for item in read_file:
-            list_to_import.append(item)
-                
-    for student in list_to_import: 
-        student["spanish"] = int(student["spanish"])           
-        student["english"] = int(student["english"]) 
-        student["social_studies"] = int(student["social_studies"]) 
-        student["science"] = int(student["science"]) 
-        student["average"] = float(student["average"]) 
-    print("A CSV file has been imported. ")    
-
+    try:
+        with open('students_csv.csv', "r", newline='')as file:
+            read_file = csv.DictReader(file)
+            for item in read_file:
+                list_to_import.append(item)
+                    
+        for student in list_to_import: 
+            student["spanish"] = int(student["spanish"])           
+            student["english"] = int(student["english"]) 
+            student["social_studies"] = int(student["social_studies"]) 
+            student["science"] = int(student["science"]) 
+            student["average"] = float(student["average"]) 
+        print("A CSV file has been imported. ")    
+    except FileNotFoundError as e:
+        print(f"_____The file doesn't exist___{e}")
     return list_to_import
     

@@ -14,7 +14,7 @@ def fill_student_info(new_list):
                 except ValueError:
                     print("only numbers from 0-100")
                     continue    
-                if grade > -0 and grade < 101:
+                if grade >= 0 and grade < 101:
                     break
                 else:
                     print("The grade must be a number between 0 - 100")
@@ -60,14 +60,14 @@ def top_3 (new_list):
         
 def show_average(new_list):
     for index in range(len(new_list)):
-            total_grade = 0
-            list_course = ["spanish", "english", "social_studies", "science"]
-            for course in list_course:
-                for key, value in new_list[index].items():
-                    if key == course:
-                        total_grade = total_grade + value
-                    average = total_grade / 4    
-                new_list[index]["average"] = average
+        total_grade = 0
+        list_course = ["spanish", "english", "social_studies", "science"]
+        for course in list_course:
+            for key, value in new_list[index].items():
+                if key == course:
+                    total_grade = total_grade + value
+            average = total_grade / 4    
+            new_list[index]["average"] = average
     print("\nStudent | Average")            
     for index in range(len(new_list)):
         print(f"{new_list[index]["name"]}:      {new_list[index]["average"]}")

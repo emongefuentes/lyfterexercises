@@ -2,7 +2,6 @@
 import menu
 
 def main():
-    print("main funciona")
     menu.menu()
     
 
