@@ -5,31 +5,39 @@ class Person():
 class Bus():
     max_passengers = 10
     
+    def __init__(self):
+        self.passengers = []
+    
     def add_passenger (self, passenger):
-        my_list.append(passenger)
+        if len(self.passengers) < self.max_passengers:
+            self.passengers.append(passenger)
+        else:
+            print("There's no more space")    
         
     
-    def show_passengers(self, list_of_passengers):
-        for index, person in enumerate(list_of_passengers):
-            print(index) 
+    def show_passengers(self):
+        for index, person in enumerate(self.passengers):
+            print(index+1) 
             
-    def remove_passenger(self, list_of_passengers):
-        list_of_passengers.pop()           
+    def remove_passenger(self):
+        if self.passengers:
+            self.passengers.pop()
+        else:
+            print("The bus is empty...")             
 
-
-
-my_list = []         
+  
+my_bus = Bus()   
+  
 while True:
     option = int(input("1)enter 2)remove: "))
     if option == 1:
         new_person = Person()
-        my_bus = Bus()
         my_bus.add_passenger(new_person)
-        my_bus.show_passengers(my_list)
+        my_bus.show_passengers()
         
     elif option == 2:
-        my_bus.remove_passenger(my_list)
-        my_bus.show_passengers(my_list)
+        my_bus.remove_passenger()
+        my_bus.show_passengers()
     else:
         break
         

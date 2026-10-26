@@ -4,7 +4,9 @@ class Circle:
     
     def get_area(self):
          area_calculus = Circle.pi * (Circle.radius*Circle.radius)
-         print(f"The area is: {area_calculus}")
+         return area_calculus
          
 new_circle = Circle()
-new_circle.get_area()
+
+result = new_circle.get_area()
+print(f"the area is: {result}")
